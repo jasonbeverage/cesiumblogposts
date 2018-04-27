@@ -2,7 +2,7 @@
 
 [Pelican Mapping](http://web.pelicanmapping.com/) has added support for Cesium Ion to their [osgEarth](https://github.com/gwaldron/osgearth) globe rendering toolkit!
 
-osgEarth is an extension to the [OpenSceneGraph](https://www.openscenegraph.org) scene graph library that brings the power of modern open geospatial standards to OpenSceneGraph based applications.  osgEarth powers everything from basic GIS applications to high performance flight simulators and nationwide weather and traffic television broadcasts.
+osgEarth is an extension to the [OpenSceneGraph](https://www.openscenegraph.org) scene graph library that brings the power of modern geospatial technology to OpenSceneGraph based applications.  osgEarth powers everything from basic GIS applications to high performance flight simulators and nationwide weather and traffic television broadcasts.
 
 osgEarth supports a wide array of datasources, and now osgEarth users can now access imagery layers in their Cesium Ion account using the new [cesiumion](http://docs.osgearth.org/en/latest/references/drivers/tile/cesiumion.html) driver.
 

@@ -1,6 +1,6 @@
 # Cesium Ion Support Added to osgEarth
 
-<p align="center"><img src="cesiumion_earth.png"></p>
+<p align="center"><img src="osgearth.png"></p>
 
 *osgEarth rendering Cesium Ion Washington DC 3 inch imagery fused with ArcGIS base imagery, ReadyMap Elevation and OpenStreetMap MapnikVectorTile features*
 

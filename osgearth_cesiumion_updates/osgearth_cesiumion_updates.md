@@ -1,13 +1,13 @@
-# osgEarth adds support for Cesium Ion 3D tiles and Bing Imagery
+# osgEarth adds support for Cesium Ion 3D Tiles and Bing Imagery
 
-[Pelican Mapping](http://web.pelicanmapping.com/) is proud to announce support for loading 3D tiles and Bing image layers to their [osgEarth](https://github.com/gwaldron/osgearth) globe rendering toolkit.
+[Pelican Mapping](http://web.pelicanmapping.com/) is proud to announce support for loading 3D Tiles and Bing image layers from Cesium Ion to their [osgEarth](https://github.com/gwaldron/osgearth) globe rendering toolkit.
 
 ## 3D Tiles
 <p align="center"><img src="melbourne.jpg"></p>
 
 *osgEarth displaying photogrammetry of Melbourne, Australia from Cesium Ion*
 
-We've been developing support for 3D tiles in osgEarth over the past year and it's proven to be an exciting and efficient format to work with.  We started by developing a gltf reader and writer for OpenSceneGraph based on [tinygltf](https://github.com/syoyo/tinygltf).  From there, we built a 3d tiles layer plugin for osgEarth that handles streaming tiles in.  osgEarth decides when to load and display tiles based on the same screen space error metric that Cesium uses, so 3D tiles layers should look nearly identical in osgEarth as they do in Cesium at the same viewpoint.  Once the 3d tiles loader was developed, we were able to quickly add support for Cesium Ion by adding the Ion's token based authentication to 3D tiles layer.
+We've been developing support for 3D Tiles in osgEarth over the past year and it's proven to be an exciting and efficient format to work with.  We started by developing a gltf reader and writer for OpenSceneGraph based on [tinygltf](https://github.com/syoyo/tinygltf).  From there, we built a 3D Tiles layer plugin for osgEarth that handles streaming tiles in.  osgEarth decides when to load and display tiles based on the same screen space error metric that Cesium uses, so 3D tiles layers should look nearly identical in osgEarth as they do in Cesium at the same viewpoint.  Once the 3d tiles loader was developed, we were able to quickly add support for Cesium Ion by adding Ion's token based authentication to the 3D Tiles layer.
 
 ## Bing Maps
 
@@ -41,6 +41,6 @@ osgearth_viewer cesiumion.earth
 ```
 
 This video shows osgEarth loading nearly all of the publicly available Cesium Ion 3D tiles layer at once, check it out!
-https://youtu.be/CPIoxmgiSoY
+[![IMAGE ](https://img.youtube.com/vi/CPIoxmgiSoY/0.jpg)](https://www.youtube.com/watch?v=CPIoxmgiSoY)
 
 
